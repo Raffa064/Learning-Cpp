@@ -3,6 +3,22 @@
 
 using namespace std;
 
+/*
+
+OPERADORES BOOLIANOS:
+
+!   NÃO
+==  IGUAL
+!=  DIFERENTE
+<   MENOR
+>   MAIOR
+<=  MENOR OU IGUAL
+>=  MAIOR OU IGUAL
+&&  E
+||  OU
+
+*/
+
 void conditionals() {
   cout << "TESTE DE CONDICIONAIS" << endl;
 
@@ -16,5 +32,7 @@ void conditionals() {
     cout << i << " is less than 0" << endl;
   }
 
-  bool ex = 30 < 40 || i == 40; //Expressão booliana
+  bool boolExp = 30 < 40 || i == 40; //Expressão booliana (0 ou 1)
+  string resultStr = (boolExp ? "true" : "false");
+  cout << "(ex = 30 < 40 || i == 40) is equals to " << resultStr << endl;
 }

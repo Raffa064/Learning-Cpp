@@ -9,10 +9,11 @@
 #include "./tests/structs.cpp"
 #include "./tests/switches.cpp"
 #include "./tests/variables.cpp"
+#include "./tests/arithmetic.cpp"
 
 /*
   include com aspas => path real/relativo
-  include com setas relacionais => 
+  include com setas relacionais => biblioteca nativa
 */
 
 using namespace std;
@@ -20,6 +21,7 @@ using namespace std;
 int main(int argc, char **argv) {
   system("clear");
 
+  // Remova o comentário de um teste para executar:
   // helloWorld();
   // variables();
   // conditionals();
@@ -31,6 +33,7 @@ int main(int argc, char **argv) {
   // structs();
   // classes();
   // switches();
+  // arithmetic();
 
   return 0;
 }
