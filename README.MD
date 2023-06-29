@@ -7,6 +7,7 @@ Talvez esse repositório seja útil para outros estudantes de C++, e quando poss
 
 ## Tópicos Estudados
 
+- Comentário
 - Hello World
 - Variáveis
 - Condicionais
