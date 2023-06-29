@@ -3,9 +3,9 @@ Esse projeto é um estudo de C++.
 
 O objetivo desse projeto é ser um repositório de testes, abstratos ou não na linguagem C++.
 
-Talvez esse repositório seja útil para outros estudantes de C++, e quando possivel irei atualiza-lo com novos códigos e links de referência.
+Talvez esse repositório seja útil para outros estudantes de C++, e quando possível irei atualiza-lo com novos códigos e links de referência.
 
-## Topicos Estudados
+## Tópicos Estudados
 
 - Hello World
 - Variáveis
@@ -15,10 +15,10 @@ Talvez esse repositório seja útil para outros estudantes de C++, e quando poss
 -- While
 -- For
 - Arrays
-- Pointeiros
+- Ponteiros
 - Sobrecarga de métodos
 - Struct e Classes
--- Direrença de struct e class
+-- Diferença de struct e class
 -- Atributos
 -- Métodos
 -- Construtores
@@ -29,5 +29,6 @@ Talvez esse repositório seja útil para outros estudantes de C++, e quando poss
 
 ## Links
 
-- [Uniday Studio aula de 40min](https://youtube.com/)
-- [Curso de 60 aulas](https://youtube.com)
+### YouTube
+- [Uniday Studio aula de 40min](https://youtu.be/McbdxZ3Se2U)
+- [Curso de 60 aulas](https://youtu.be/jg-QHbBWkco)
