@@ -37,11 +37,11 @@ Talvez esse repositório seja útil para outros estudantes de C++, e quando poss
 
 ## Links
 
-<div style="padding: 10px; border: 1px dashed gray; border-radius: 5px;">
-✅ Terminei de ler/assistir<br>
-🔎 Ainda estou lendo/assistindo
-</div>
+```diff
++ ✅ Terminei de ler/assistir
+- 🔎 Ainda estou lendo/assistindo
+```
 
 ### YouTube
-- ✅ [Uniday Studio aula de 40min](https://youtu.be/McbdxZ3Se2U)
-- 🔎 [Curso de 60 aulas](https://youtu.be/jg-QHbBWkco)
+- [✅ Uniday Studio aula de 40min](https://youtu.be/McbdxZ3Se2U)
+- [🔎 Curso de 60 aulas](https://youtu.be/jg-QHbBWkco)
