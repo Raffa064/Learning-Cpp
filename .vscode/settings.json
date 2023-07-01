@@ -35,6 +35,10 @@
   ],
   "C_Cpp_Runner.useAddressSanitizer": false,
   "cSpell.words": [
+    "minigame",
     "Uniday"
-  ]
+  ],
+  "lldb.showDisassembly": "auto",
+  "lldb.dereferencePointers": true,
+  "lldb.consoleMode": "commands"
 }
