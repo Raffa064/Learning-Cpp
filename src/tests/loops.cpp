@@ -22,4 +22,10 @@ void loops() {
 
     cout << "FOR: " << i << endl;
   }
+
+  int input;
+  do {
+    cout << "Enter a number greater than 10 to exit: ";
+    cin >> input;
+  } while (input < 10);
 }

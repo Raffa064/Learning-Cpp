@@ -43,6 +43,27 @@ public:
   Rafael() { name = "Rafael"; }
 };
 
+/*
+  As expressões
+
+  struct <Name> {...};
+   ou
+  class <Name> {...};
+
+  São lidas instantaneamente como tipo de dados, então da para criar variáveis:
+
+  struct Struct {} exemple;    -->      Struct example;
+
+  class Classe {} exemple2;    -->      Classe example2;
+
+*/
+
+struct Data {
+  int a, b;
+  string c;
+  int d;
+} instance0, instance1, instance2;
+
 void structs() {
   // O Human é um struct: ele não gera referencia, e o construtor não usa new
   Human test = Human(16, "Rafael", "Marcos", "Brazil");
@@ -53,4 +74,10 @@ void structs() {
   Human test2(27, "Fulano", "Aleatório"); // Country como default == "Brazil"
   cout << test2.getFullName() << " is a Human of " << test2.age << " years old!"
        << endl;
+
+  // Da para declarar "objeto" com um array de valor
+  // o array tem q tar na mesma ordem de declaração
+  // isso funciona para classe também, e da bo se tiver
+  // algum valor privado na estrutura/classe
+  Data teste3 = {1, 1, "Exemplo", 1};
 }

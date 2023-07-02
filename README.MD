@@ -1,4 +1,5 @@
 # Sobre
+
 Esse projeto é um estudo de C++.
 
 O objetivo desse projeto é ser um repositório de testes, abstratos ou não na linguagem C++.
@@ -10,30 +11,41 @@ Talvez esse repositório seja útil para outros estudantes de C++, e quando poss
 - Comentário
 - Hello World
 - Variáveis
-- Condicionais
+- Condicionais (if | else | else if)
+- Switch
+- - case
+- - default
 - Input
 - Loops
--- While
--- For
+  -- While
+  -- Do-while
+  -- For
+  -- break
+  -- continue
 - Arrays
+- - Sizeof
+- - Alocação dinâmica (tamanho automático dos array)
 - Ponteiros
 - Sobrecarga de métodos
 - Struct e Classes
--- Diferença de struct e class
--- Atributos
--- Métodos
--- Construtores
--- Herança
--- Sobrescrita de métodos/construtores
--- Modificadores de acesso
+  -- Diferença de struct e class
+  -- Atributos
+  -- Métodos
+  -- Construtores
+  -- Herança
+  -- Sobrescrita de métodos/construtores
+  -- Modificadores de acesso
 - Declaração direta (class, vector, struct)
 - Operações aritméticas
 - - Operadores matemáticos
 - Operações boolianas
 - - Operadores boolianos
-- Cast 
+- Cast
 - - static_cast&lt;type&gt; ou (type)
 - - dynamic_cast&lt;type&gt;
+- Protótipo de função
+- Templates (Generics)
+- Uso de sizeof()
 
 ## Links
 
@@ -43,6 +55,7 @@ Talvez esse repositório seja útil para outros estudantes de C++, e quando poss
 ```
 
 ### YouTube
+
 - [✅ Dicionário do programador C++](https://youtu.be/AQdABlihlGs)
 - [✅ Uniday Studio aula de 40min](https://youtu.be/McbdxZ3Se2U)
 - [🔎 Curso de 23 aulas](https://youtu.be/jg-QHbBWkco)

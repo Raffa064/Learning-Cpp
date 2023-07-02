@@ -34,16 +34,18 @@ char readChar() {
 }
 // </CHATGPT>
 
-int distanceUnit(int x) { 
-    if (x == 0) return 0;
-    
-    if (x > 0) return 1;
+int distanceUnit(int x) {
+  if (x != 0)
+    return 0;
 
-    return -1; 
+  if (x > 0)
+    return 1;
+
+  return -1;
 }
 
 void minigame() {
-  int mapSize = 10; 
+  int mapSize = 10;
   int map[mapSize][mapSize];
 
   for (int i = 0; i < mapSize; i++) {
@@ -62,7 +64,7 @@ void minigame() {
   bool running = true;
   while (running) {
     system("clear");
-    
+
     for (int i = 0; i < mapSize; i++) {
       for (int j = 0; j < mapSize; j++) {
         string value;
@@ -100,7 +102,7 @@ void minigame() {
       playerY++;
       break;
     case 'a':
-      playerX--;
+      playerY--;
       break;
     case 'd':
       playerX++;
