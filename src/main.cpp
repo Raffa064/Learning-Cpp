@@ -7,11 +7,13 @@
 #include "./tests/arrays.cpp"
 #include "./tests/classes.cpp"
 #include "./tests/conditionals.cpp"
+#include "./tests/function-overload.cpp"
+#include "./tests/functions.cpp"
 #include "./tests/hello-world.cpp"
 #include "./tests/incremental.cpp"
 #include "./tests/input.cpp"
 #include "./tests/loops.cpp"
-#include "./tests/function-overload.cpp"
+#include "./tests/memory.cpp"
 #include "./tests/minigame.cpp"
 #include "./tests/pascal-pyramid.cpp"
 #include "./tests/pointers.cpp"
@@ -32,8 +34,9 @@ int main(int argc, char **argv) {
   // conditionals();
   // input();
   // loops();
-  arrays();
+  // arrays();
   // pointers();
+  // memory(64);
   // functionOverload();
   // structs();
   // classes();
@@ -44,6 +47,6 @@ int main(int argc, char **argv) {
   // incremental();
   // prototype();
   // templates();
-
+  functions();
   return 0;
 }

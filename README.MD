@@ -8,7 +8,7 @@ Talvez esse repositório seja útil para outros estudantes de C++, e quando poss
 
 ## Tópicos Estudados
 
-- Comentário
+- Comentários
 - Hello World
 - Variáveis
 - Condicionais (if | else | else if)
@@ -24,9 +24,13 @@ Talvez esse repositório seja útil para outros estudantes de C++, e quando poss
   -- continue
 - Arrays
 - - Sizeof
-- - Alocação dinâmica (tamanho automático dos array)
+- - Alocação dinâmica de arrays (tamanho automático dos array)
 - Ponteiros
-- Sobrecarga de métodos
+- Segmentos de memoria
+- - Static
+- - Stack
+- - Heap
+- Sobrecarga de funções
 - Struct e Classes
   -- Diferença de struct e class
   -- Atributos

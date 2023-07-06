@@ -61,7 +61,7 @@ public:
   string getName() override { return "Lemon"; }
 };
 
-void useClass() {
+void classes() {
   std::string isSweet;
 
   Apple apple = Apple();
