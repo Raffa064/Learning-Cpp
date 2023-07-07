@@ -30,14 +30,14 @@ template <class Type> string typeName(Type any) { return typeid(any).name(); }
 int *createTable(int n) {
   int *table = new int[11];
   table[0] = n;
-  for (int i = 0; i < 10; i++) {
-    table[i + 1] = n * i;
+  for (int i = 1; i <= 10; i++) {
+    table[i] = n * i;
   }
   return table;
 }
 
 void printTable(int *table) {
-  for (int i = 0; i < 10; i++) {
-    cout << table[0] << " x " << i << " = " << table[i + 1] << endl;
+  for (int i = 1; i <= 10; i++) {
+    cout << table[0] << " x " << i << " = " << table[i] << endl;
   }
 }

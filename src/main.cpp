@@ -15,15 +15,23 @@
 #include "./tests/loops.cpp"
 #include "./tests/memory.cpp"
 #include "./tests/minigame.cpp"
+#include "./tests/my-list.cpp"
 #include "./tests/pascal-pyramid.cpp"
 #include "./tests/pointers.cpp"
 #include "./tests/prototype.cpp"
 #include "./tests/structs.cpp"
 #include "./tests/switches.cpp"
 #include "./tests/templates.cpp"
+#include "./tests/valid-cpf.cpp"
 #include "./tests/variables.cpp"
 
 using namespace std;
+
+/*
+  Na função main o argc é importante pq o argv usa ponteiro
+  ao invés de array, e não da para fazer conversão direta de
+  ponteiro para array, embora o contrario funcione.
+*/
 
 int main(int argc, char **argv) {
   system("clear");
@@ -47,6 +55,8 @@ int main(int argc, char **argv) {
   // incremental();
   // prototype();
   // templates();
-  functions();
+  // functions();
+  // validCPF();
+  myList();
   return 0;
 }

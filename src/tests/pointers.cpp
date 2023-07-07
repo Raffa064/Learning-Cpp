@@ -127,3 +127,12 @@ void pointers() {
 
   cout << endl;
 }
+
+/*
+  char*
+  pode ser um ponteiro para uma array de caracteres (array de char)
+
+  char**
+  pode ser um ponteiro para um array de ponteiros para vários
+  arrays de caracteres (array de string)
+*/
