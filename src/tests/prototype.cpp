@@ -20,7 +20,7 @@ void prototype() {
   prototypeFunction(5);
 }
 
-void prototypeFunction() { cout << "Função com protótipo!" << endl; }
+void prototypeFunction() { cout << "Function with prototype!" << endl; }
 
 // Função sobrecarregada
 void prototypeFunction(int n) {

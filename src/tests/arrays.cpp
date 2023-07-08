@@ -5,7 +5,7 @@ using namespace std;
 void arrays() {
   int array[5] = {0, 0, 0, 0, 0};
 
-  cout << "Acessando index inexistente do array: ";
+  cout << "Accessing out of range array index: ";
   for (int i = 0; i < 5; i++) {
     // Index fora do range: sem exception, acessa memória indevida
     cout << array[i + 1] << ", ";
@@ -13,7 +13,7 @@ void arrays() {
 
   cout << endl;
 
-  char string[8] = "Exemplo";
+  char string[8] = "Exemple";
   // A string tem 7 letras, mas o array tem 8 por causa de
   // um detalhe técnico de que as string terminam em \0
 

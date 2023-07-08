@@ -1,5 +1,9 @@
 #include <iostream>
 
+/*
+  Esse código é uma visão geral de funções
+*/
+
 using namespace std;
 
 // Protótipos
@@ -8,6 +12,7 @@ int mul(int, int, int);
 template <class Type> string typeName(Type);
 int *createTable(int);
 void printTable(int *);
+void inverse(int &);
 
 void functions() {
   cout << "3 * 2 = " << mul(3, 2) << endl;
@@ -17,6 +22,11 @@ void functions() {
   int *table = createTable(6);
   printTable(table);
   delete[] table;
+
+  int value = 64;
+  cout << "Value before: " << value << endl;
+  inverse(value);
+  cout << "Value after: " << value << endl;
 }
 
 int mul(int a, int b) { return a * b; }
@@ -40,4 +50,11 @@ void printTable(int *table) {
   for (int i = 1; i <= 10; i++) {
     cout << table[0] << " x " << i << " = " << table[i] << endl;
   }
+}
+
+// Exemplo de uso de referências
+void inverse(int &number) {
+  // O parâmetro number deve ser uma variável obrigatoriamente
+
+  number *= -1; // isso será aplicado a variável original
 }

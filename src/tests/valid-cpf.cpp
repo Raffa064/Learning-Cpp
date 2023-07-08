@@ -11,7 +11,7 @@ int *sanitize(string);
 bool checkSum(int sum);
 
 void validCPF() {
-  cout << "Digite um cpf: " << endl;
+  cout << "Enter a cpf number: " << endl;
   string input;
   cin >> input;
 

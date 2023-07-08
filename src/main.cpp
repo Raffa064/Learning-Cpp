@@ -57,6 +57,6 @@ int main(int argc, char **argv) {
   // templates();
   // functions();
   // validCPF();
-  myList();
+  // myList();
   return 0;
 }
