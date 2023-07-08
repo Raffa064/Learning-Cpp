@@ -50,6 +50,7 @@ Talvez esse repositório seja útil para outros estudantes de C++, e quando poss
 - Protótipo de função
 - Templates (Generics)
 - Uso de sizeof()
+- Funções recursivas
 
 ## Links
 

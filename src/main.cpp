@@ -24,6 +24,7 @@
 #include "./tests/templates.cpp"
 #include "./tests/valid-cpf.cpp"
 #include "./tests/variables.cpp"
+#include "./tests/fatorial-function.cpp"
 
 using namespace std;
 
@@ -58,5 +59,6 @@ int main(int argc, char **argv) {
   // functions();
   // validCPF();
   // myList();
+  fatorial();
   return 0;
 }
