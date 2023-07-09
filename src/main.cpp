@@ -18,6 +18,7 @@
 #include "./tests/memory.cpp"
 #include "./tests/minigame.cpp"
 #include "./tests/my-list.cpp"
+#include "./tests/number-game.cpp"
 #include "./tests/pascal-pyramid.cpp"
 #include "./tests/pointers.cpp"
 #include "./tests/prototype.cpp"
@@ -61,6 +62,7 @@ int main(int argc, char **argv) {
   // validCPF();
   // myList();
   // fatorial();
-  converters();
+  // converters();
+  numberGame();
   return 0;
 }
