@@ -7,6 +7,8 @@
 #include "./tests/arrays.cpp"
 #include "./tests/classes.cpp"
 #include "./tests/conditionals.cpp"
+#include "./tests/converters.cpp"
+#include "./tests/fatorial-function.cpp"
 #include "./tests/function-overload.cpp"
 #include "./tests/functions.cpp"
 #include "./tests/hello-world.cpp"
@@ -24,7 +26,6 @@
 #include "./tests/templates.cpp"
 #include "./tests/valid-cpf.cpp"
 #include "./tests/variables.cpp"
-#include "./tests/fatorial-function.cpp"
 
 using namespace std;
 
@@ -59,6 +60,7 @@ int main(int argc, char **argv) {
   // functions();
   // validCPF();
   // myList();
-  fatorial();
+  // fatorial();
+  converters();
   return 0;
 }
