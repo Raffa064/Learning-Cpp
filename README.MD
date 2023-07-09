@@ -17,11 +17,11 @@ Talvez esse repositório seja útil para outros estudantes de C++, e quando poss
 - - default
 - Input
 - Loops
-  -- While
-  -- Do-while
-  -- For
-  -- break
-  -- continue
+- - While
+- - Do-while
+- - For
+- - break
+- - continue
 - Arrays
 - - Sizeof
 - - Alocação dinâmica de arrays (tamanho automático dos array)
@@ -32,13 +32,13 @@ Talvez esse repositório seja útil para outros estudantes de C++, e quando poss
 - - Heap
 - Sobrecarga de funções
 - Struct e Classes
-  -- Diferença de struct e class
-  -- Atributos
-  -- Métodos
-  -- Construtores
-  -- Herança
-  -- Sobrescrita de métodos/construtores
-  -- Modificadores de acesso
+- - Diferença de struct e class
+- - Atributos
+- - Métodos
+- - Construtores
+- - Herança
+- - Sobrescrita de métodos/construtores
+- - Modificadores de acesso
 - Declaração direta (class, vector, struct)
 - Operações aritméticas
 - - Operadores matemáticos
