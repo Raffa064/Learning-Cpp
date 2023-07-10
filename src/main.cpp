@@ -60,9 +60,9 @@ int main(int argc, char **argv) {
   // templates();
   // functions();
   // validCPF();
-  // myList();
+  myList();
   // fatorial();
   // converters();
-  numberGame();
+  // numberGame();
   return 0;
 }
