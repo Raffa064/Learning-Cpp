@@ -27,6 +27,7 @@
 #include "./tests/templates.cpp"
 #include "./tests/valid-cpf.cpp"
 #include "./tests/variables.cpp"
+#include "./tests/classes2.cpp"
 
 using namespace std;
 
@@ -51,6 +52,7 @@ int main(int argc, char **argv) {
   // functionOverload();
   // structs();
   // classes();
+  classes2();
   // switches();
   // arithmetic();
   // pascalPyramid();
@@ -60,7 +62,7 @@ int main(int argc, char **argv) {
   // templates();
   // functions();
   // validCPF();
-  myList();
+  // myList();
   // fatorial();
   // converters();
   // numberGame();

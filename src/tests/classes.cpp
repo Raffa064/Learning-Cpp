@@ -30,7 +30,7 @@ public:
   virtual string getName() { return "Fruit"; }
 };
 
-class Apple : Fruit {
+class Apple : public Fruit {
 public:
   Apple() : Fruit(0.9, 0.1) {} // Equivalente de super(...)
 
@@ -47,7 +47,7 @@ public:
   string getName() override { return "Apple"; }
 };
 
-class Lemon : Fruit {
+class Lemon : public Fruit {
 public:
   Lemon() : Fruit(0.0, 0.99) {}
 
@@ -61,14 +61,24 @@ public:
   string getName() override { return "Lemon"; }
 };
 
-void classes() {
+void printFruitData(Fruit &fruit) {
+  /*
+    Se não for passado como referência, o valor de fruit vai ser uma
+    copia do valor original, e por ter o tipo Fruit, irá ocorrer
+    uma conversão, que causa slicing (corte) de informações de subclasses
+    como Apple e Lemon.
+  */
+
   std::string isSweet;
+  isSweet = fruit.isSweet() ? "sweet" : "acid";
+  cout << fruit.getName() << " is " << isSweet << endl;
+}
 
+void classes() {
   Apple apple = Apple();
-  isSweet = apple.isSweet() ? "sweet" : "acid";
-  cout << "Apple is " << isSweet << endl;
-
   Lemon lemon = Lemon();
-  isSweet = lemon.isSweet() ? "sweet" : "acid";
-  cout << "Lemon is " << isSweet << endl;
+
+  // Poliformismo:A função printFruitData aceita qualquer fruta
+  printFruitData(apple);
+  printFruitData(lemon);
 }

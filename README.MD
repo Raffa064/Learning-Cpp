@@ -63,4 +63,4 @@ Talvez esse repositório seja útil para outros estudantes de C++, e quando poss
 
 - [✅ Dicionário do programador C++](https://youtu.be/AQdABlihlGs)
 - [✅ Uniday Studio aula de 40min](https://youtu.be/McbdxZ3Se2U)
-- [🔎 Curso de 23 aulas](https://youtu.be/jg-QHbBWkco)
+- [🔎 Curso de C e C++ (23 aulas)](https://youtu.be/jg-QHbBWkco)
