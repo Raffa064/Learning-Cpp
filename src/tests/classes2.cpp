@@ -19,14 +19,15 @@ public:
     this->height = height;
   }
 
-  void printData(); // Método protótipo
+  void printData(); // Protótipo do método printData 
 };
 
+// Implementação do método printData
 void Person::printData() {
-  cout << "Nome: " << this->name << endl;
-  cout << "Country: " << this->country << endl;
-  cout << "Age: " << this->age << endl;
-  cout << "Height: " << this->height << endl;
+  cout << "Nome: " << name << endl;
+  cout << "Country: " << country << endl;
+  cout << "Age: " << age << endl;
+  cout << "Height: " << height << endl;
 }
 
 void classes2() {
