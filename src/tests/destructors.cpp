@@ -53,4 +53,15 @@ void destructors() {
 
   cout << "Pointer2 are cleaned up, also the number is: " << pointer2->number
        << endl;
+
+  // Exemplo com destrutor na stack (somente pointer é liberado)
+  ClassWithDestructor obj3 = ClassWithDestructor();
+  obj3.pointer = new OtherClass();
+  OtherClass *pointer3 = obj3.pointer;
+  pointer3->number = 64;
+
+  obj3.~ClassWithDestructor(); // obj3 so será apagado ao fim do escopo
+
+  cout << "Pointer3 are cleaned up, also the number is: " << pointer2->number
+       << endl;
 }

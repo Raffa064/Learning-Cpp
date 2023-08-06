@@ -36,7 +36,9 @@ Talvez esse repositório seja útil para outros estudantes de C++, e quando poss
 - - Atributos
 - - Métodos
 - - Construtores
+- - Destrutores
 - - Herança
+- - Polimorfismo
 - - Sobrescrita de métodos/construtores
 - - Modificadores de acesso
 - Declaração direta (class, vector, struct)
@@ -63,4 +65,4 @@ Talvez esse repositório seja útil para outros estudantes de C++, e quando poss
 
 - [✅ Dicionário do programador C++](https://youtu.be/AQdABlihlGs)
 - [✅ Uniday Studio aula de 40min](https://youtu.be/McbdxZ3Se2U)
-- [🔎 Curso de C e C++ (23 aulas)](https://youtu.be/jg-QHbBWkco)
+- [✅ Curso de C e C++ (23 aulas)](https://youtu.be/jg-QHbBWkco)

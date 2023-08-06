@@ -14,6 +14,7 @@
 #include "./tests/function-overload.cpp"
 #include "./tests/functions.cpp"
 #include "./tests/hello-world.cpp"
+#include "./tests/heritage.cpp"
 #include "./tests/incremental.cpp"
 #include "./tests/input.cpp"
 #include "./tests/loops.cpp"
@@ -54,7 +55,8 @@ int main(int argc, char **argv) {
   // structs();
   // classes();
   // classes2();
-  destructors();
+  //destructors();
+  heritage();
   // switches();
   // arithmetic();
   // pascalPyramid();

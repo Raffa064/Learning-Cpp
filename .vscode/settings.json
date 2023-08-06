@@ -31,7 +31,14 @@
     "**/.vscode/**"
   ],
   "C_Cpp_Runner.useAddressSanitizer": false,
-  "cSpell.words": ["celsius", "minigame", "rafael", "Uniday"],
+  "cSpell.words": [
+    "celsius",
+    "minigame",
+    "rafael",
+    "Uniday",
+    "vectra",
+    "Vectra"
+  ],
   "lldb.showDisassembly": "auto",
   "lldb.dereferencePointers": true,
   "lldb.consoleMode": "commands",
