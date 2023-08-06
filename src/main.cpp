@@ -6,8 +6,10 @@
 #include "./tests/arithmetic.cpp"
 #include "./tests/arrays.cpp"
 #include "./tests/classes.cpp"
+#include "./tests/classes2.cpp"
 #include "./tests/conditionals.cpp"
 #include "./tests/converters.cpp"
+#include "./tests/destructors.cpp"
 #include "./tests/fatorial-function.cpp"
 #include "./tests/function-overload.cpp"
 #include "./tests/functions.cpp"
@@ -27,7 +29,6 @@
 #include "./tests/templates.cpp"
 #include "./tests/valid-cpf.cpp"
 #include "./tests/variables.cpp"
-#include "./tests/classes2.cpp"
 
 using namespace std;
 
@@ -52,7 +53,8 @@ int main(int argc, char **argv) {
   // functionOverload();
   // structs();
   // classes();
-  classes2();
+  // classes2();
+  destructors();
   // switches();
   // arithmetic();
   // pascalPyramid();
